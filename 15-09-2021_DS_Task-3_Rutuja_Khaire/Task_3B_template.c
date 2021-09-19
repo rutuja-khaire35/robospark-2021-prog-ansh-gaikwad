@@ -71,7 +71,7 @@ int pop2()
     if (ts.top2 < MAX)
     {
         int poppedElement = ts.arr[ts.top2];
-        ts.top2--;
+        ts.top2++;
 
         printf("%d is being popped from Stack 1\n", poppedElement);
         return poppedElement;
